@@ -12,6 +12,7 @@ gem 'pg', '>= 0.18', '< 2.0'
 gem 'puma', '~> 3.7'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
+gem 'webpacker'
 
 group :development, :test do
   gem 'byebug', platforms: %i[mri mingw x64_mingw]
@@ -25,6 +26,7 @@ group :development do
   gem 'bullet'
   gem 'rubocop', require: false
   gem 'overcommit'
+  gem 'foreman'
 end
 
 group :test do
